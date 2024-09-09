@@ -29,6 +29,8 @@
 
 ## Arquitectura y Diseño del Compilador
 - **Diagrama de bloques:**
+  ![Archivo Markdown (1)](https://github.com/user-attachments/assets/c199f72d-94d9-4052-9d18-dcc25407302f)
+
 - **Explicación del flujo de datos:**
     El flujo de datos en este proyecto comienza con la entrada de un archivo Markdown, que pasa por un análisis léxico para identificar y tokenizar elementos clave del documento. Estos tokens luego son analizados sintácticamente para formar un Árbol de Sintaxis Abstracta (AST), que organiza la estructura lógica del documento. A continuación, se realiza un análisis semántico para asegurar la coherencia del contenido. Con el AST validado, se procede a la generación de código HTML, donde cada elemento de Markdown se convierte en su equivalente HTML, resultando en un menú o servicio representado en HTML listo para ser utilizado en una página web.
 - **Decisiones de diseño:**
