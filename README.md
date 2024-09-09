@@ -37,7 +37,9 @@
     Se optó por un diseño modular que permite la fácil adición de nuevas funcionalidades, como plantillas personalizadas o soporte para otros formatos de entrada. Se priorizó la eficiencia y la claridad en la generación del código HTML, manteniendo la simplicidad en el uso.
 
 ## Análisis Léxico
-- **Análisis léxico:** 
+- **Análisis léxico:**
+![Automata DFA](https://github.com/user-attachments/assets/37414cce-2f53-4d6e-80cf-8a64eadcb874)
+
   - Durante el análisis léxico, el compilador identificará tokens como encabezados (para categorías del menú), listas (para ítems del menú), y texto en línea (para descripciones y precios). Operadores y delimitadores como #, *, y - serán reconocidos y transformados en elementos HTML correspondientes.
 - **Ejemplos:**
     Markdown
